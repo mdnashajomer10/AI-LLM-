@@ -120,3 +120,31 @@ An intelligent multi-modal AI workspace with LLM-powered agents, Stable Diffusio
 | Diffusion      | SDXL via Replicate/HuggingFace |
 | Memory         | FAISS / Chroma / Weaviate |
 | Agent Framework| LangChain, CrewAI |
+---
+
+## 📐 LLM Evaluation Suite
+
+GenAgent Studio includes an automated evaluation toolkit to assess LLM outputs, helping you identify hallucinations, weak reasoning, or poor task completion.
+
+### ✅ Evaluation Capabilities:
+- 🤖 **LLM-as-a-Judge**: Uses GPT-4 or Claude to grade responses (accuracy, helpfulness, CoT quality).
+- 📊 **Hallucination Detection**: Detects unsupported claims using retrieval-based verification.
+- 🧪 **Prompt Injection Scanner**: Identifies risky prompt patterns.
+- 🔁 **Prompt Comparison Tool**: Test and compare different strategies (ReAct vs. CoT).
+- 📝 **User Feedback Logging**: Collect and visualize real user scores per session.
+
+All evaluations are tracked and optionally logged for long-term analysis and training fine-tuning datasets.
+---
+
+## 🌟 What Makes It Special?
+
+Unlike most AI apps that are just wrappers around OpenAI APIs, GenAgent Studio combines multiple cutting-edge techniques into one workspace:
+
+- 🧠 **Multi-Agent Planning**: Supports multiple AI agents working in sequence or parallel.
+- 🖼️ **Image + Text Fusion**: Mix creative writing and visuals with synchronized prompts.
+- 📚 **Long-Term Memory**: Vector store enables contextual recall across sessions.
+- 🧠 **Prompt Engineering Playground**: Test CoT, ReAct, and ToT in real-time.
+- 📊 **Built-in Evaluation**: Automatic LLM grading for transparency and reliability.
+
+> GenAgent Studio is a full-stack, production-grade template for building intelligent AI systems—not just a toy demo.
+
