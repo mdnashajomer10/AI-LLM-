@@ -76,3 +76,47 @@ export default function GenAgentStudio() {
     </motion.div>
   );
 }
+# 🧠 GenAgent Studio
+
+An intelligent multi-modal AI workspace with LLM-powered agents, Stable Diffusion image generation, and dynamic tool use.
+
+---
+
+## 🚀 Key Features
+
+- 🔍 **LLM Agent Framework** — Autonomous agents that reason, plan, and use tools (LangChain/CrewAI).
+- 🧠 **Context Memory** — Vector memory using FAISS/Weaviate for long-term memory.
+- 🖼️ **Text-to-Image Generation** — Powered by Stable Diffusion (SDXL).
+- 📊 **LLM Output Evaluation** — GPT-4 as a judge with metrics like hallucination score, CoT reasoning quality.
+- 💬 **Prompt Strategy Templates** — Built-in ReAct, CoT, Tree-of-Thought patterns.
+- 🧩 **Tool Integration** — Web search, code execution, file summarization.
+- 📈 **Evaluation Dashboard** — Visualize and grade agent performance.
+
+---
+
+## 🎯 Use Cases
+
+- ✍️ **Creative Writing + Illustration**: Generate stories with AI-written text + corresponding images.
+- 🧪 **Research Assistant**: Summarize papers, generate diagrams, and query sources via search tools.
+- 📚 **Education Assistant**: Explain complex topics using multi-modal agents and memory.
+- 🧰 **Developer Copilot**: Use AI agents to draft code, debug, and visualize output.
+- 🧠 **Idea Brainstormer**: Prompt agents to ideate, analyze feasibility, and visualize outputs.
+
+---
+
+## 📸 Demo Screenshots
+
+> (Insert screenshots or GIFs of prompt → response + image)
+
+---
+
+## 🛠️ Tech Stack
+
+| Component      | Tech            |
+|----------------|------------------|
+| Frontend       | Next.js, Tailwind, Framer Motion |
+| Backend        | FastAPI / Node.js |
+| LLMs           | GPT-4, Claude, Mistral |
+| Diffusion      | SDXL via Replicate/HuggingFace |
+| Memory         | FAISS / Chroma / Weaviate |
+| Agent Framework| LangChain, CrewAI |
